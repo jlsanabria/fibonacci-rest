@@ -4,6 +4,11 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class FibonacciService {
+    /**
+     * Return fibonacci number at position n
+     * @param n
+     * @return
+     */
     public Integer getFibonacciN(Integer n) {
         int a = -1, b = 1, c = a + b;
         for (int i = 0; i < n; i++) {
